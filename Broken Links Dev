@@ -1,0 +1,26 @@
+,Status Code / Error,URL
+0,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/tabular_prediction/tabular-custom-metric.html
+1,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#autoarima
+2,403 Client Error Forbidden for url,https://auto.gluon.ai/dev/tutorials/multimodal/matching/image2text_matching.html
+3,406 Client Error Not Acceptable for url,http://www.statnlp.org/research/ie/zhanming19naacl-ner.pdf
+4,404 Client Error Not Found for url,https://www.kaggle.com/code/amareltaylor/how-to-install-alternative-python-version-hack
+5,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#dynamic-optimized-theta-method
+6,403 Client Error Forbidden for url,https://ts.gluon.ai/_modules/gluonts/dataset/common.html#ListDataset
+7,403 Client Error Forbidden for url,https://www.sciencedirect.com/science/article/pii/S0169207019301128
+8,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/tabular_prediction/index.html
+9,404 Client Error Not Found for url,https://www.kaggle.com/c/shopee-iet-machine-learning-competition/data
+10,403 Client Error Forbidden for url,https://auto.gluon.ai/dev/tutorials/course/core.html
+11,404 Client Error Not Found for url,https://www.kaggle.com/code/linuxdex/get-autogluon-standalone
+12,404 Client Error Not Found for url,http://ai.stanford.edu/~jkrause/cars/car_dataset.html
+13,404 Client Error Not Found for url,https://pygraphviz.github.io/documentation.html
+14,404 Client Error Not Found for url,https://catboost.ai/docs/concepts/python-reference_parameters-list.html
+15,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#autoets
+16,404 Client Error Not Found for url,https://docs.fast.ai/tabular.models.html
+17,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/tabular_prediction/tabular-custom-model.html
+18,"HTTPSConnectionPool(host='auto.gluon.ai', port=443) Max retries exceeded with url",https://auto.gluon.ai/dev/api/autogluon.tabular.TabularPredictor.unpersist_models.html#autogluon.tabular.TabularPredictor.unpersist_models
+19,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#theta
+20,"HTTPSConnectionPool(host='auto.gluon.ai', port=443) Max retries exceeded with url",https://auto.gluon.ai/dev/api/autogluon.common.features.feature_metadata.FeatureMetadata.get_type_group_map_special_from_type_map_special.html#autogluon.common.features.feature_metadata.FeatureMetadata.get_type_group_map_special_from_type_map_special
+21,404 Client Error Not Found for url,https://docs.ray.io/en/latest/tune/api_docs/analysis.html
+22,403 Client Error Forbidden for url,https://twitter.com/autogluon
+23,"HTTPSConnectionPool(host='auto.gluon.ai', port=443) Max retries exceeded with url",https://auto.gluon.ai/dev/api/autogluon.tabular.TabularPredictor.fit.html#autogluon.tabular.TabularPredictor.fit
+24,403 Client Error Forbidden for url,https://auto.gluon.ai/0.8.0/index.html

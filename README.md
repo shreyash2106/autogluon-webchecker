@@ -1,0 +1,1 @@
+To run the script, first install all the libraries as `pip install -r requirements.txt`. Then, run `python get_broken_links.py`. The broken links for `stable` and `dev` will be in the respective `.csv` files.

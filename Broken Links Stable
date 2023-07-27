@@ -1,0 +1,32 @@
+,Status Code / Error,URL
+0,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune_coco.html
+1,404 Client Error Not Found for url,https://docs.fast.ai/tabular.models.html
+2,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_fasterrcnn_coco.html
+3,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/tabular_prediction/tabular-custom-model.html
+4,406 Client Error Not Acceptable for url,http://www.statnlp.org/research/ie/zhanming19naacl-ner.pdf
+5,404 Client Error Not Found for url,https://www.kaggle.com/code/amareltaylor/how-to-install-alternative-python-version-hack
+6,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_fasterrcnn_voc.html
+7,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune/detection_fast_finetune_coco.html
+8,"HTTPSConnectionPool(host='auto.gluon.ai', port=443) Max retries exceeded with url",https://auto.gluon.ai/stable/_modules/autogluon/eda/visualization/model.html#RegressionEvaluation
+9,403 Client Error Forbidden for url,https://ts.gluon.ai/_modules/gluonts/dataset/common.html#ListDataset
+10,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/tabular_prediction/index.html
+11,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_yolov3_coco.html
+12,404 Client Error Not Found for url,https://www.kaggle.com/c/shopee-iet-machine-learning-competition/data
+13,403 Client Error Forbidden for url,https://auto.gluon.ai/dev/tutorials/course/core.html
+14,404 Client Error Not Found for url,https://www.kaggle.com/code/linuxdex/get-autogluon-standalone
+15,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/matching/image2text_matching.html
+16,404 Client Error Not Found for url,http://ai.stanford.edu/~jkrause/cars/car_dataset.html
+17,404 Client Error Not Found for url,https://pygraphviz.github.io/documentation.html
+18,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/tabular_prediction/tabular-custom-metric.html
+19,404 Client Error Not Found for url,https://catboost.ai/docs/concepts/python-reference_parameters-list.html
+20,403 Client Error Forbidden for url,https://www.sciencedirect.com/science/article/pii/S0169207019301128
+21,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#autoarima
+22,404 Client Error Not Found for url,https://github.com/autogluon/autogluon/blob/master/timeseries/src/autogluon/timeseries/models/gluonts/mx/models.py
+23,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#dynamic-optimized-theta-method
+24,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#autoets
+25,"HTTPSConnectionPool(host='auto.gluon.ai', port=443) Max retries exceeded with url",https://auto.gluon.ai/stable/_modules/autogluon/tabular/models/vowpalwabbit/vowpalwabbit_model.html#VowpalWabbitModel
+26,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune/detection_high_performance_finetune_coco.html
+27,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#theta
+28,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_ddetr_coco.html
+29,404 Client Error Not Found for url,https://docs.ray.io/en/latest/tune/api_docs/analysis.html
+30,403 Client Error Forbidden for url,https://twitter.com/autogluon
