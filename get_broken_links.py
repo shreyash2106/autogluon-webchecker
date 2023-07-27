@@ -12,7 +12,6 @@ def get_all_links(url):
     links = set()
     try:
         response = requests.get(url, timeout=5)
-        # response.raise_for_status()
         parsed_start_url = urlparse(start_url)
         domain = parsed_start_url.netloc  # this will be "auto.gluon.ai"
         stable_or_dev = parsed_start_url.path.split("/")[1]
