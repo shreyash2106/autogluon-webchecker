@@ -56,9 +56,9 @@ def main(start_url, filename):
             crawled_links |= set(batch_links)
 
             # Crawl each link and get new links
-            future_to_link = {executor.submit(get_all_links, link): link for link in batch_links}
-            for future in concurrent.futures.as_completed(future_to_link):
-                new_links = future.result()
+            links = {executor.submit(get_all_links, link): link for link in batch_links}
+            for valid_link in concurrent.futures.as_completed(links):
+                new_links = valid_link.result()
                 all_links |= (new_links - crawled_links)
 
             # Check link status concurrently
