@@ -1,10 +1,11 @@
 import concurrent.futures
 import http
-import urllib
+import socket
+from urllib.request import Request, urlopen
+import urllib.error
 from urllib.parse import urljoin, urlparse
 
 import pandas as pd
-import requests
 from bs4 import BeautifulSoup
 
 IGNORE_STRINGS_IN_URL = ["twitter", "kaggle.com/code"]
@@ -30,9 +31,9 @@ def get_all_links(url):
     ):
         return links
     try:
-        req = urllib.request.Request(url)
+        req = Request(url)
         add_headers(req)
-        response = urllib.request.urlopen(req, timeout=5)
+        response = urlopen(req, timeout=5)
 
         parsed_start_url = urlparse(start_url)
         domain = parsed_start_url.netloc  # this will be "auto.gluon.ai"
@@ -51,9 +52,9 @@ def get_all_links(url):
                         links.add(absolute_url)
                         parent_links[absolute_url] = url  # Store the parent link
             return links
-    except TimeoutError:
+    except (TimeoutError, socket.timeout):
         print("Request timed out")
-    except (http.client.HTTPException, urllib.error.URLError) as e:
+    except (urllib.error.HTTPError, urllib.error.URLError) as e:
         print(f"Error while processing {url}: {e}")
         links.add(url)
     return links
@@ -66,11 +67,16 @@ def check_link_status(link):
     ):
         return link, 0
     try:
-        req = urllib.request.Request(link, method="HEAD")
+        req = Request(link, method="HEAD")
         add_headers(req)
-        response = urllib.request.urlopen(req, timeout=5)
+        response = urlopen(req, timeout=5)
         return link, response.code
-    except (http.client.HTTPException, urllib.error.URLError, TimeoutError) as e:
+    except (
+        urllib.error.HTTPError,
+        urllib.error.URLError,
+        TimeoutError,
+        socket.timeout,
+    ) as e:
         print(f"Error while checking {link}: {e}")
         return link, str(e)
 
@@ -122,7 +128,9 @@ def main(start_url, filename):
     df = pd.DataFrame(
         broken_links, columns=["Origin Webpage", "Status Code / Error", "URL"]
     )
-    df.to_csv(f"Broken Links {filename}.csv")
+    first_column = df.columns[0]
+    df = df.drop([first_column], axis=1)
+    df.to_csv(f"Broken Links {filename}.csv", index=False)
 
 
 if __name__ == "__main__":
