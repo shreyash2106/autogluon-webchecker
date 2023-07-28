@@ -18,6 +18,14 @@ jobs:
         - name: Broken Link Script
           run: |
             chmod +x ./.github/workflow_scripts/link_check.sh && ./.github/workflow_scripts/link_check.sh
+        - name: git
+          run: |
+            git config user.name "GitHub Actions Bot"
+            git config user.email "<>"
+            git fetch https://github.com/shreyash2106/autogluon-webchecker
+            git add *.csv -f
+            git commit -m "csv files with broken links"
+            git push
         - name: Check CSV Files
           shell: python
           run: |
@@ -28,11 +36,3 @@ jobs:
             df = pd.read_csv("Broken Links Dev.csv") 
             if not df.empty: 
                 exit(1)
-        - name: git
-          run: |
-            git config user.name "GitHub Actions Bot"
-            git config user.email "<>"
-            git fetch https://github.com/shreyash2106/autogluon-webchecker
-            git add *.csv -f
-            git commit -m "csv files with broken links"
-            git push
