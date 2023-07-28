@@ -1,1 +1,26 @@
-Origin Webpage,Status Code / Error,URL
+Status Code / Error,URL
+HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/matching/image2text_matching.html
+HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/tabular_prediction/tabular-custom-model.html
+HTTP Error 404 Not Found,https://docs.fast.ai/tabular.models.html
+HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_ddetr_coco.html
+HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune/detection_fast_finetune_coco.html
+HTTP Error 404 Not Found,https://catboost.ai/docs/concepts/python-reference_parameters-list.html
+HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/tabular_prediction/tabular-custom-metric.html
+HTTP Error 403 Forbidden,https://ts.gluon.ai/_modules/gluonts/dataset/common.html#ListDataset
+The read operation timed out,https://www.microsoft.com/en-us/research/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/
+HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_fasterrcnn_coco.html
+HTTP Error 404 Not Found,https://pygraphviz.github.io/documentation.html
+HTTP Error 404 Not Found,https://docs.ray.io/en/latest/tune/api_docs/analysis.html
+HTTP Error 404 Not Found,https://www.kaggle.com/c/shopee-iet-machine-learning-competition/data
+HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_yolov3_coco.html
+HTTP Error 404 Not Found,https://nixtla.github.io/statsforecast/models.html#theta
+HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune_coco.html
+HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/tabular_prediction/index.html
+HTTP Error 403 Forbidden,https://auto.gluon.ai/dev/tutorials/course/core.html
+HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune/detection_high_performance_finetune_coco.html
+HTTP Error 404 Not Found,https://nixtla.github.io/statsforecast/models.html#dynamic-optimized-theta-method
+HTTP Error 404 Not Found,https://nixtla.github.io/statsforecast/models.html#autoarima
+HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_fasterrcnn_voc.html
+HTTP Error 404 Not Found,https://github.com/autogluon/autogluon/blob/master/timeseries/src/autogluon/timeseries/models/gluonts/mx/models.py
+HTTP Error 404 Not Found,https://nixtla.github.io/statsforecast/models.html#autoets
+HTTP Error 404 Not Found,http://ai.stanford.edu/~jkrause/cars/car_dataset.html
