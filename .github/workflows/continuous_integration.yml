@@ -9,8 +9,22 @@ jobs:
     link_check:
         runs-on: ubuntu-latest
         steps:
-        - name: Broken Link Checker Action
-          uses: technote-space/broken-link-checker-action@v1.1.3
+        - name: Checkout repository
+          uses: actions/checkout@v3
+        - name: Set up Python
+          uses: actions/setup-python@v4
           with:
-            TARGET: https://auto.gluon.ai/stable/index.html
-            RECURSIVE: true
+            python-version: '3.9'
+        - name: Broken Link Script
+          run: |
+            chmod +x ./.github/workflow_scripts/link_check.sh && ./.github/workflow_scripts/link_check.sh
+        - name: Check CSV Files
+          shell: python
+          run: |
+            import pandas as pd
+            df = pd.read_csv("Broken Links Stable.csv") 
+            if not df.empty: 
+                exit(1)
+            df = pd.read_csv("Broken Links Dev.csv") 
+            if not df.empty: 
+                exit(1)
