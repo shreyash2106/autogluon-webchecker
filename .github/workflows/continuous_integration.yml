@@ -28,3 +28,11 @@ jobs:
             df = pd.read_csv("Broken Links Dev.csv") 
             if not df.empty: 
                 exit(1)
+        - name: git
+          run: |
+            git config user.name "GitHub Actions Bot"
+            git config user.email "<>"
+            git fetch https://github.com/shreyash2106/autogluon-webchecker
+            git add *.csv
+            git commit -m "csv files with broken links"
+            git push
