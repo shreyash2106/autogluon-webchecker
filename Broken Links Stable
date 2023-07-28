@@ -1,32 +1,25 @@
-,Status Code / Error,URL
-0,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune_coco.html
-1,404 Client Error Not Found for url,https://docs.fast.ai/tabular.models.html
-2,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_fasterrcnn_coco.html
-3,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/tabular_prediction/tabular-custom-model.html
-4,406 Client Error Not Acceptable for url,http://www.statnlp.org/research/ie/zhanming19naacl-ner.pdf
-5,404 Client Error Not Found for url,https://www.kaggle.com/code/amareltaylor/how-to-install-alternative-python-version-hack
-6,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_fasterrcnn_voc.html
-7,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune/detection_fast_finetune_coco.html
-8,"HTTPSConnectionPool(host='auto.gluon.ai', port=443) Max retries exceeded with url",https://auto.gluon.ai/stable/_modules/autogluon/eda/visualization/model.html#RegressionEvaluation
-9,403 Client Error Forbidden for url,https://ts.gluon.ai/_modules/gluonts/dataset/common.html#ListDataset
-10,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/tabular_prediction/index.html
-11,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_yolov3_coco.html
-12,404 Client Error Not Found for url,https://www.kaggle.com/c/shopee-iet-machine-learning-competition/data
-13,403 Client Error Forbidden for url,https://auto.gluon.ai/dev/tutorials/course/core.html
-14,404 Client Error Not Found for url,https://www.kaggle.com/code/linuxdex/get-autogluon-standalone
-15,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/matching/image2text_matching.html
-16,404 Client Error Not Found for url,http://ai.stanford.edu/~jkrause/cars/car_dataset.html
-17,404 Client Error Not Found for url,https://pygraphviz.github.io/documentation.html
-18,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/tabular_prediction/tabular-custom-metric.html
-19,404 Client Error Not Found for url,https://catboost.ai/docs/concepts/python-reference_parameters-list.html
-20,403 Client Error Forbidden for url,https://www.sciencedirect.com/science/article/pii/S0169207019301128
-21,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#autoarima
-22,404 Client Error Not Found for url,https://github.com/autogluon/autogluon/blob/master/timeseries/src/autogluon/timeseries/models/gluonts/mx/models.py
-23,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#dynamic-optimized-theta-method
-24,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#autoets
-25,"HTTPSConnectionPool(host='auto.gluon.ai', port=443) Max retries exceeded with url",https://auto.gluon.ai/stable/_modules/autogluon/tabular/models/vowpalwabbit/vowpalwabbit_model.html#VowpalWabbitModel
-26,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune/detection_high_performance_finetune_coco.html
-27,404 Client Error Not Found for url,https://nixtla.github.io/statsforecast/models.html#theta
-28,403 Client Error Forbidden for url,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_ddetr_coco.html
-29,404 Client Error Not Found for url,https://docs.ray.io/en/latest/tune/api_docs/analysis.html
-30,403 Client Error Forbidden for url,https://twitter.com/autogluon
+,Origin Webpage,Status Code / Error,URL
+0,https://auto.gluon.ai/stable/api/autogluon.tabular.models.html#autogluon.tabular.models.AbstractModel.convert_to_refit_full_template ,HTTP Error 404 Not Found,https://docs.ray.io/en/latest/tune/api_docs/analysis.html
+1,https://auto.gluon.ai/stable/tutorials/multimodal/index.html ,HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/tabular_prediction/index.html
+2,https://auto.gluon.ai/stable/api/autogluon.timeseries.TimeSeriesDataFrame.from_iterable_dataset.html ,HTTP Error 403 Forbidden,https://ts.gluon.ai/_modules/gluonts/dataset/common.html#ListDataset
+3,https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-model-zoo.html#autogluon.timeseries.models.DLinearModel ,HTTP Error 404 Not Found,https://nixtla.github.io/statsforecast/models.html#theta
+4,https://auto.gluon.ai/stable/tutorials/multimodal/index.html ,HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_yolov3_coco.html
+5,https://auto.gluon.ai/stable/api/autogluon.tabular.models.html#autogluon.tabular.models.AbstractModel.predict ,HTTP Error 404 Not Found,https://catboost.ai/docs/concepts/python-reference_parameters-list.html
+6,https://auto.gluon.ai/stable/tutorials/multimodal/advanced_topics/hyperparameter_optimization.html ,HTTP Error 403 Forbidden,https://auto.gluon.ai/dev/tutorials/course/core.html
+7,https://auto.gluon.ai/stable/tutorials/multimodal/index.html ,HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune/detection_high_performance_finetune_coco.html
+8,https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-model-zoo.html#autogluon.timeseries.models.ThetaModel ,HTTP Error 404 Not Found,https://nixtla.github.io/statsforecast/models.html#autoets
+9,https://auto.gluon.ai/stable/tutorials/multimodal/index.html ,HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_fasterrcnn_voc.html
+10,https://auto.gluon.ai/stable/tutorials/multimodal/index.html ,HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune/detection_fast_finetune_coco.html
+11,https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-model-zoo.html#autogluon.timeseries.models.AutoETSModel ,HTTP Error 404 Not Found,https://nixtla.github.io/statsforecast/models.html#autoarima
+12,https://auto.gluon.ai/stable/tutorials/multimodal/index.html ,HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_fasterrcnn_coco.html
+13,https://auto.gluon.ai/stable/api/autogluon.tabular.TabularPredictor.fit.html#autogluon.tabular.TabularPredictor.fit ,HTTP Error 404 Not Found,https://docs.fast.ai/tabular.models.html
+14,https://auto.gluon.ai/stable/api/autogluon.tabular.TabularPredictor.html#autogluon.tabular.TabularPredictor ,HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/tabular_prediction/tabular-custom-metric.html
+15,https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-model-zoo.html#autogluon.timeseries.models.SimpleFeedForwardModel ,HTTP Error 404 Not Found,https://github.com/autogluon/autogluon/blob/master/timeseries/src/autogluon/timeseries/models/gluonts/mx/models.py
+16,https://auto.gluon.ai/stable/api/autogluon.tabular.TabularPredictor.fit.html#autogluon.tabular.TabularPredictor.fit ,HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/tabular_prediction/tabular-custom-model.html
+17,https://auto.gluon.ai/stable/tutorials/multimodal/index.html ,HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/evaluation/detection_eval_ddetr_coco.html
+18,https://auto.gluon.ai/stable/tutorials/timeseries/forecasting-model-zoo.html#autogluon.timeseries.models.AutoARIMAModel ,HTTP Error 404 Not Found,https://nixtla.github.io/statsforecast/models.html#dynamic-optimized-theta-method
+19,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/index.html ,HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/object_detection/finetune_coco.html
+20,https://auto.gluon.ai/stable/tutorials/multimodal/matching/index.html ,HTTP Error 403 Forbidden,https://auto.gluon.ai/stable/tutorials/multimodal/matching/image2text_matching.html
+21,https://auto.gluon.ai/stable/api/autogluon.tabular.TabularPredictor.plot_ensemble_model.html#autogluon.tabular.TabularPredictor.plot_ensemble_model ,HTTP Error 404 Not Found,https://pygraphviz.github.io/documentation.html
+22,https://auto.gluon.ai/stable/tutorials/multimodal/advanced_topics/few_shot_learning.html ,HTTP Error 404 Not Found,http://ai.stanford.edu/~jkrause/cars/car_dataset.html
+23,https://auto.gluon.ai/stable/tutorials/multimodal/image_prediction/beginner_image_cls.html ,HTTP Error 404 Not Found,https://www.kaggle.com/c/shopee-iet-machine-learning-competition/data
