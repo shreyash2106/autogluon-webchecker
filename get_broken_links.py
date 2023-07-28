@@ -122,7 +122,7 @@ def main(start_url, filename):
     df = pd.DataFrame(
         broken_links, columns=["Origin Webpage", "Status Code / Error", "URL"]
     )
-    df.to_csv(f"Broken Links {filename}")
+    df.to_csv(f"Broken Links {filename}.csv")
 
 
 if __name__ == "__main__":
