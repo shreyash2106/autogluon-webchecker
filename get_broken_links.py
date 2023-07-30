@@ -128,8 +128,6 @@ def main(start_url, filename):
     df = pd.DataFrame(
         broken_links, columns=["Origin Webpage", "Status Code / Error", "URL"]
     )
-    first_column = df.columns[0]
-    df = df.drop([first_column], axis=1)
     df.to_csv(f"Broken Links {filename}.csv", index=False)
 
 
