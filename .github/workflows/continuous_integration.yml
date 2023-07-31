@@ -1,9 +1,8 @@
-name: Continuous Integration
+name: "Broken Link Checker"
 
 on:
-  push:
-  pull_request:
-    types: [labeled, opened, synchronize]
+    schedule:
+    - cron: '59 07 * * *'
 
 jobs:
     link_check:
