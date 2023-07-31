@@ -1,8 +1,6 @@
 name: "Broken Link Checker"
 
-on:
-    schedule:
-    - cron: '59 07 * * *'
+on: push
 
 jobs:
     link_check:
