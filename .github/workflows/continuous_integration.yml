@@ -25,6 +25,7 @@ jobs:
           with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
             branch: 'master'
+            message: 'csv files with broken links'
         - name: Check CSV Files
           shell: python
           run: |
