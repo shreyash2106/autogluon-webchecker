@@ -133,14 +133,6 @@ def main(start_url, filename):
 
 if __name__ == "__main__":
     start_url = "https://auto.gluon.ai/stable/index.html"
-    df = pd.DataFrame(
-        [], columns=["Origin Webpage", "Status Code / Error", "URL"]
-    )
-    df.to_csv(f"Broken Links Stable.csv", index=False)
-    #main(start_url, "Stable")
+    main(start_url, "Stable")
     start_url = "https://auto.gluon.ai/dev/index.html"
-    df = pd.DataFrame(
-        [], columns=["Origin Webpage", "Status Code / Error", "URL"]
-    )
-    df.to_csv(f"Broken Links Dev.csv", index=False)
-    #main(start_url, "Dev")
+    main(start_url, "Dev")
